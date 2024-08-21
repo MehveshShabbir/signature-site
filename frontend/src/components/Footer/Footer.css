@@ -1,0 +1,97 @@
+
+.footer-container {
+    background-color: #2c2f33;
+    padding: 40px 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .footer-left {
+    max-width: 400px;
+  }
+  
+  .footer-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-description {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .footer-social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    display: block;
+  }
+  
+  .instagram {
+    background-image: url('./github.svg'); /* Update with the correct path */
+  }
+  
+  .linkedin {
+    background-image: url('./github.svg'); /* Update with the correct path */
+  }
+  
+  .pinterest {
+    background-image: url('./github.svg'); /* Update with the correct path */
+  }
+  
+  .twitter {
+    background-image: url('./github.svg'); /* Update with the correct path */
+  }
+  
+  .footer-right {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-contact-card {
+    background-color: #1b1e23;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    text-align: center;
+  }
+  
+  .contact-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-size: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .dribbble {
+    background-image: url('./github.svg'); /* Update with the correct path */
+  }
+  
+  .email {
+    background-image: url('./github.svg'); /* Update with the correct path */
+  }
+  
+  .contact-info {
+    font-size: 14px;
+    color: #fff;
+  }
+  

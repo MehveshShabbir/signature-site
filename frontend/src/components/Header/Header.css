@@ -1,0 +1,129 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2e6577;
+  padding: 10px 20px;
+  color: white;
+  height: 60px;
+  position: relative;
+}
+
+.menu-icon {
+  cursor: pointer;
+}
+
+.menu-icon svg {
+  fill: white;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  padding: 2px;
+  margin-left: 20px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.search-bar .search-icon {
+  width: 20px; /* Adjust the size as necessary */
+  height: 20px; /* Adjust the size as necessary */
+  margin-right: 6px; /* Adjust the spacing as necessary */
+  margin-left: 5px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.logo {
+  padding-top: 10px;
+  width: 200px; /* Adjust the size as necessary */
+  height: auto;
+
+}
+
+.profile-section {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-section span {
+  margin-right: 10px;
+}
+
+.profile-section img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.login-dialog {
+  position: absolute; 
+  top: calc(100% + 5px); 
+  right: 0;
+  background-color: white;
+  padding: 25px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex; 
+  flex-direction: column; 
+  text-align: center;
+}
+
+.login-dialog p {
+  margin-bottom: 20px; /* Add some space between text and button */
+  color:#2f667f;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.login-dialog button {
+  padding: 10px 30px;
+  border: unset;
+  border-radius: 5px;
+  color: #2f667f;
+  z-index: 1;
+  background: #fdfdfd;
+  position: relative;
+  font-weight:500;
+  font-size: 17px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 3px 8px 19px 3px rgba(0,0,0,0.27);
+  transition: all 250ms;
+  overflow: hidden;
+ }
+ 
+ .login-dialog button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 5px;
+  background-color: #2f667f;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px 2px rgba(0,0,0,0.27);
+  transition: all 250ms
+ }
+ 
+ .login-dialog button:hover {
+  color: #e8e8e8;
+ }
+ 
+ .login-dialog button:hover::before {
+  width: 100%;
+ }
